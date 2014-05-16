@@ -1,0 +1,27 @@
+{
+  "name": "angular-butter-scroll",
+  "version": "0.0.0",
+  "description": "A plug and play angular directive for buttery smooth, high FPS scrolling.",
+  "main": "dist/angular-butter-scroll.js",
+  "keywords": [
+    "scroll",
+    "pointer",
+    "hover",
+    "disable",
+    "pointer-event",
+    "smooth",
+    "performance",
+    "fast"
+  ],
+  "authors": [
+    "Boris Cherny <bcherny@turn.com>"
+  ],
+  "license": "Apache2",
+  "dependencies": {
+    "angular": "1.0.8",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.0.8"
+  }
+}

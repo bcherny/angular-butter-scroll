@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>angular-butter-scroll demo</title>
+	<link rel="stylesheet" href="../dist/angular-butter-scroll.css">
+	<style>
+
+		* {
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			box-sizing: border-box;
+			display: block;
+			height: 50px;
+			list-style: none;
+		}
+
+		li:hover {
+			border: 25px solid rgba(255, 255, 255, .9);
+		}
+
+	</style>
+</head>
+<body ng-app="demo" ng-controller="demo">
+
+	<ul angular-butter-scroll>
+		<li ng-repeat="item in items" style="background:rgb({{item.rgb}})"></li>
+	</ul>
+
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
+	<script src="../dist/angular-butter-scroll.js"></script>
+	<script>
+
+		angular
+		.module('demo', ['turn/angularButterScroll'])
+		.controller('demo', function ($scope, $q, $timeout) {
+
+			// generate 1000 items
+			$scope.items = Array
+				.apply(null, Array(1000))
+				.map(function() {
+					return {
+						rgb: 0 + ',' + random(0,200) + ',' + random(200,255)
+					};
+				})
+
+		});
+
+		function random (min, max) {
+			return Math.floor(Math.random() * (max - min + 1) + min);
+		}
+
+	</script>
+</body>
+</html>
