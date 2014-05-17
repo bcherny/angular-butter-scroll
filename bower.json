@@ -23,5 +23,11 @@
   },
   "devDependencies": {
     "angular-mocks": "1.0.8"
-  }
+  },
+  "ignore": [
+    "demo",
+    "src",
+    "test",
+    "Gruntfile.coffee"
+  ]
 }
