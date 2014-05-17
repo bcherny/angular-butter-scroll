@@ -25,8 +25,14 @@ Browsers seriously optimize scroll operations, making scrolling buttery smooth b
 
 ```js
 angular
-.module('foo', ['turnButterScroll'])
+.module('foo', ['turn/angularButterScroll'])
 ...
+```
+
+**HTML**
+
+```html
+<div angular-butter-scroll> ... </div>
 ```
 
 **CSS**
