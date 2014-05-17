@@ -11,16 +11,16 @@ angular.module('turn/angularButterScroll', []).value('angularButterScrollOptions
       restrict: 'A',
       link: function (scope, element) {
         angular.extend(scope, {
-          timeout: null,
+          timer: null,
           clear: function () {
             element.removeClass(options.className);
           },
           scroll: _.throttle(function () {
             element.addClass(options.className);
-            if (scope.timeout) {
-              $timeout.cancel(scope.timeout);
+            if (scope.timer) {
+              $timeout.cancel(scope.timer);
             }
-            scope.timeout = $timeout(scope.clear, options.delay);
+            scope.timer = $timeout(scope.clear, options.delay);
           }, options.delay)
         });
         $window.addEventListener('scroll', scope.scroll, false);

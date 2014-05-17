@@ -9,7 +9,7 @@ module.exports = (grunt) ->
 
 	# task sets
 	build = ['ngmin']
-	test = ['html2js', 'coffee', 'jasmine']
+	test = ['coffee', 'jasmine']
 
 	# task defs
 	grunt.initConfig
@@ -26,10 +26,9 @@ module.exports = (grunt) ->
 				options:
 					specs: './test/test.js'
 					vendor: [
-						'./bower_components/jquery/dist/jquery.js'
+						'./bower_components/lodash/dist/lodash.js'
 						'./bower_components/angular/angular.js'
 						'./bower_components/angular-mocks/angular-mocks.js'
-						'./dist/template.js'
 					]
 					keepRunner: true
 
