@@ -45,7 +45,7 @@ angular
 
 ### How does it work?
 
-It works by disabling pointer events while scrolling, and re-enabling them when the user is done scrolling. It's a simple hack based on [the technique](http://www.thecssninja.com/javascript/pointer-events-60fps).
+Angular-butter-scroll works by disabling pointer events while scrolling, and re-enabling them when the user is done scrolling. It's a simple hack based on [this technique](http://www.thecssninja.com/javascript/pointer-events-60fps).
 
 ### Running the demo
 
@@ -59,7 +59,7 @@ npm install
 grunt test
 ```
 
-### Hacking on it
+### Hacking it
 
 ```bash
 bower install
