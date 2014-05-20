@@ -2,7 +2,7 @@ angular
 .module('turn/angularButterScroll', [])
 .value('angularButterScrollOptions', {
 	className: 'disable-pointer-events',
-	delay: 100
+	delay: 200
 })
 .directive('angularButterScroll', function ($window, $timeout, angularButterScrollOptions) {
 
