@@ -1,6 +1,6 @@
 {
   "name": "angular-butter-scroll",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A plug and play angular directive for buttery smooth, high FPS scrolling.",
   "main": "dist/angular-butter-scroll.js",
   "scripts": {
