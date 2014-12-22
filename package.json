@@ -1,14 +1,15 @@
 {
   "name": "angular-butter-scroll",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A plug and play angular directive for buttery smooth, high FPS scrolling.",
   "main": "dist/angular-butter-scroll.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test --verbose",
+    "pretest": "npm install"
   },
   "repository": {
     "type": "git",
-    "url": "https+git://github.com/turn/angular-butter-scroll.git"
+    "url": "https+git://github.com/bcherny/angular-butter-scroll.git"
   },
   "keywords": [
     "scroll",
@@ -20,13 +21,15 @@
     "performance",
     "fast"
   ],
-  "author": "Boris Cherny <bcherny@turn.com>",
+  "author": "Boris Cherny <boris@performancejs.com>",
   "license": "Apache2",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-coffee": "^0.10.1",
     "grunt-contrib-jasmine": "^0.5.2",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-ngmin": "0.0.3"
+    "grunt-coveralls": "^1.0.0",
+    "grunt-ngmin": "0.0.3",
+    "grunt-template-jasmine-istanbul": "^0.2.6"
   }
 }

@@ -1,7 +1,6 @@
-angular-butter-scroll
-=====================
+# angular-butter-scroll [![Build Status](https://travis-ci.org/bcherny/angular-butter-scroll.svg?branch=master)](https://travis-ci.org/bcherny/angular-butter-scroll) [![Coverage Status](https://img.shields.io/coveralls/bcherny/angular-butter-scroll.svg)](https://coveralls.io/r/bcherny/angular-butter-scroll)
 
-![butta](http://www.duden.de/_media_/full/B/Butter-201100280016.jpg)
+![](http://www.duden.de/_media_/full/B/Butter-201100280016.jpg)
 
 A plug and play angular directive for buttery smooth, high FPS scrolling.
 
