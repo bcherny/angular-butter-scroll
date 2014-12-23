@@ -1,4 +1,9 @@
-# angular-butter-scroll [![Build Status](https://travis-ci.org/bcherny/angular-butter-scroll.svg?branch=master)](https://travis-ci.org/bcherny/angular-butter-scroll) [![Coverage Status](https://img.shields.io/coveralls/bcherny/angular-butter-scroll.svg)](https://coveralls.io/r/bcherny/angular-butter-scroll)
+# angular-butter-scroll [![Build Status][build]](https://travis-ci.org/bcherny/angular-butter-scroll) [![Coverage Status][coverage]](https://coveralls.io/r/bcherny/angular-butter-scroll) ![][bower] [![npm]](https://www.npmjs.com/package/angular-butter-scroll)
+
+[build]: https://img.shields.io/travis/bcherny/angular-butter-scroll.svg?branch=master&style=flat-square
+[coverage]: http://img.shields.io/coveralls/bcherny/angular-butter-scroll.svg?branch=master&style=flat-square
+[bower]: https://img.shields.io/bower/v/angular-butter-scroll.svg?style=flat-square
+[npm]: https://img.shields.io/npm/v/angular-butter-scroll.svg?style=flat-square
 
 ![](http://www.duden.de/_media_/full/B/Butter-201100280016.jpg)
 
